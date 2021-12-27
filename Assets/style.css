@@ -102,58 +102,88 @@ section {
     width: 75%;
 }
 
-.first-app .app-title {
-    position: absolute;
-    
-    right: 32px;
-    top: 150px;
+
+.first-app h3 {
+   
     font-size: 24px;
     color: var(--turquoise);
     background-color: var(--dark-purple);
     padding: 5px;
     border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;    
+    
 }
 
 
 .first-img {
     position: relative;
+    padding-bottom: 10px;
 }
 
 .first-img img {
-    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+   
 }
 
+.apps {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 .other-app {
     
-    display: inline-block;
-    width: 75%;
+ 
     position: relative;
 
 }
 
 .app-img {
-    padding: 15px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 .app-img img {
     display: flex;
     width: 100%;
+    border-radius: 10px;
+}
+
+.app-img2 img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
 }
 
 .app-title {
-    position: absolute;
-    top: 100px;
-    right: 32px;
+    
+    
+    justify-content: center;
     font-size: 24px;
     color: var(--turquoise);
     background-color: var(--dark-purple);
     padding: 5px;
     border-radius: 10px;
+    text-align: center;
+    
+}
+
+.app-title a {
+    text-decoration: none;
 }
 
 .subtitle {
     position: absolute;
-    bottom: 20px;
+    top: 60px;
     left: 20px;
     font-size: 16px;
     color: var(--purple);

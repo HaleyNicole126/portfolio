@@ -7,7 +7,8 @@ A website that provides a platform for Haley Schwenk to showcase her work.
 * HTML
 * CSS
 
-## Screenshots
+## Screenshot
+![image](https://user-images.githubusercontent.com/94570754/147434516-a91a3946-006a-427f-b932-9bb3d737aab7.png)
 
 
 

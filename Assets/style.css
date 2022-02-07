@@ -102,6 +102,9 @@ section {
     width: 75%;
 }
 
+.first-app {
+    position: relative;
+}
 
 .first-app h3 {
    
@@ -119,11 +122,14 @@ section {
 
 
 .first-img {
-    position: relative;
+    
     padding-bottom: 10px;
+    width: 100%;
+    
 }
 
 .first-img img {
+    display: flex;
     max-width: 100%;
     border-radius: 10px;
    

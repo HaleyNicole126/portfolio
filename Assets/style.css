@@ -4,6 +4,7 @@
     --purple: #531253;
     --silver: rgba(160, 172, 173, 0.6);
     --turquoise: #97D8B2;
+    --dark-brown: #543512;
 }
 * {
     margin:0;
@@ -125,6 +126,7 @@ section {
     
     padding-bottom: 10px;
     width: 100%;
+
     
 }
 
@@ -132,6 +134,7 @@ section {
     display: flex;
     max-width: 100%;
     border-radius: 10px;
+    background-color:var(--dark-brown);
    
 }
 
